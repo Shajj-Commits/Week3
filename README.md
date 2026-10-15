@@ -8,4 +8,5 @@
 
 [ClickMe](https://google.co.uk)
 
-(code)
+We have content management systems - ways to generate a page out of written content.
+
