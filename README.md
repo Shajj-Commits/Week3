@@ -1,12 +1,11 @@
-# Week3
+# My Blog 
 
-- test
-- test2
+Posts:
 
-*Italy*
-**Spain**
+<ul>
+{% for post in site.posts %}    
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>   
+  {% endfor %} 
+</ul>
 
-[ClickMe](https://google.co.uk)
-
-We have content management systems - ways to generate a page out of written content.
 
